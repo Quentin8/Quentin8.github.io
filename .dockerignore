@@ -1,0 +1,10 @@
+*
+!blog
+!docs
+!src
+!static
+!babel.config.js
+!package.json
+!docusaurus.config.js
+!package-lock.json  
+!sidebars.js

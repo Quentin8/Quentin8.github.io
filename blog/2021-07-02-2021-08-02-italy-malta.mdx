@@ -1,5 +1,5 @@
 ---
-slug: blog-post
+slug: malta-italy
 title: Malta & Italy
 authors: quentin
 tags: [Malta, Italy]
@@ -10,29 +10,82 @@ import { Gallery } from "react-grid-gallery";
 My trip was divided into 2 parts. I started with 1 week in Malta and then 3 weeks in Italy.
 
 ## Malta
-I was very surprised by the beauty of Malta's landscapes. I'd been researching places to go before, but seeing them with my own eyes was even more amazing.<!--There's a real contrast in social wealth across the island, Valletta (capital).--> And there is a lot of teenagers coming from all over the globe. We met many international teanagers doing seasonnal works : they give flyers for parties, visits, activites,...
+I was very surprised by the beauty of Malta's landscapes. I'd been researching places to go before, but seeing them with my own eyes was even more amazing. 
 
-I realy enjoyed this part of the trip because we were in a big house with many other foreigners (turk, columbian, german,...). We had the opportunity to share meals and drinks with them. We met many people there because  it was like a youth hostel.
+I realy enjoyed this part of the trip because we were in a big house with many other foreigners (Turkish, Columbian, German,...). And we had the opportunity to discuss, share meals and take a drink with them. 
 
-Lived in a community, they were rules in the house so that everyone behave good. We shared meals and 
+Tourists were mainly teenagers coming from all over the globe. We met multiple times teanagers like doing seasonnal works. They were usually promoting flyers for organised parties, visits, activites,...
+
+Lived in a community, they were rules in the house so that everyone behave good.
+
+Malta isn't an expensive destination, but during the summer season and especially in the big cities (Paceville, Valetta,...) prices are the same as in France.
+
+There's a real contrast in social wealth across the island. In fact, it's not uncommon to see magnificent buildings surrounded by dilapidated ones.
+
+### Advice
+You must see *Blue Grotto* (sea caverns). The water and the reflections of the light are beautiful and well worth seeing !
+
+:::tip
+If you wan't a wonderfull experience, go there at the early morning.
+:::
+
+export const malta = [
+    {
+      src: require('@site/static/img/malta/malta_church.jpg').default,
+      width: 640,
+      height: 480,
+   },
+   {
+      src: require('@site/static/img/malta/malta_groto.jpg').default,
+      width: 640,
+      height: 480,
+   },
+   {
+      src: require('@site/static/img/malta/malta_groto_water.jpg').default,
+      width: 640,
+      height: 480,
+   },
+   {
+      src: require('@site/static/img/malta/malta_little_port.jpg').default,
+      width: 705,
+      height: 480,
+   },
+   {
+      src: require('@site/static/img/malta/malta_yachts.jpg').default,
+      width: 705,
+      height: 480,
+   },
+   {
+      src: require('@site/static/img/malta/malta_party_street.jpg').default,
+      width: 4100,
+      height: 4032,
+   }
+];
+
+<Gallery images={malta} enableImageSelection={false} rowHeight={250}/>
 
 ## Italy
-During my trip in Italy I had the opportunity to explore Bari, Roma, Firenze, Pisa,...
+During my trip in Italy I had the opportunity to explore Bari, Rome, Florence, Pisa,...
 
 ### Bari
 I don't recommend this city for a long stay, there is not much things to do and discover.
 Especially because theres is not a lot of hystoric monuments and places to visits. I think it's a good destination for 2 or 3 days maximum.
 
-We were in Bari the during the final of 2021 European footbal tournament; Italy won against England, a lot of Italians were on the streets celebrating.  
+Compared to Malta Bari is very affordable, the bottle of Peronni (Italian beer) cost 1€, pizza's were sold arrount 6€ and cocktails 7€.
+
+We had the chance to be there during the final of the 2021 European footbal tournament. Italy won against England and the city was crazy, Italians were celebrating everywhere on the streets.  
 
 Here is a picture reflecting the atmosphere this night :
 
 ![Italian Win](/img/Italy/bari_party.jpg)
 
+
+la ville est une sorte de quadrillage dont les rues en sens unique
+
 #### What to do ?
 - You can go to Polignano a Mare, it's a little balnear station 30 minutes away. for this you need to take the regional train (the ticket costs approximately 5€).
 - Visit the historical center, there is a lot of typical small streets
-- Go to the *Piazza Mercantile*, it's a place with a lot of restaurants, bistro's, coffees, singers,...
+- Go to the *Piazza Mercantile*, it's a place with a lot of restaurants, bistro's, coffees, animations,...
 - Explore the 13th-century Norman-Swabian Castle of Bari
 
 export const bari = [
@@ -65,19 +118,18 @@ export const bari = [
 
 <Gallery images={bari} enableImageSelection={false} rowHeight={250}/>
 
-### Roma
+### Rome
 I highly recommend visiting Rome, I think 7 days is perfect to visit the city and all it's monuments and places. I strongly advise you equip yourself with good walking shoes. The city is so large and interesting that long distances can be rapidly covered..
 
-Rome is a city brimming with museums, squares, Roman buildings and other must-sees.
+rome is a city brimming with museums, squares, Roman buildings and other must-sees.
 
-#### What to do ?
-- Trevi Fountain
-- Enjoy traditional pastas with a glass of wine at **Pasta e Vino Osteria**. It's someone we met during our trip that recommended us the adress. It's considered as the best place to taste real Italian pastas with the typical Italian atmosphere.
+#### What you must do ?
 - Visit the Coliseum, the Circus Maximus, Palatine Hill and the Roman Forum
 - The Pantheon
-- The Vatican and the sixteen chapelle
-- Roman forum
-- Voir le quartier de Trastevere (quartier typique italien où vous pouvez vous perdre dans le labyrinthe de petites ruelle regorgeant de bars et ruelles)
+- The Vatican and the Sistine Chapel
+- The Roman forum
+- Enjoy traditional pastas with a glass of wine at ```Pasta e Vino Osteria```. It's someone we met during our trip that recommended us the adress. It's considered as the best place to taste real Italian pastas with the typical Italian atmosphere.
+- Visit the Trastevere neighbourhood, the area is one of the oldest and most authentic neighbourhoods in Rome and is definitely where to stay in Rome for nightlife.
 - If you have time you can go to Castel Gandolfo, this is commonly known as the *Pope's City*, as it houses the Pope's summer residence. There is a train line that can bring you there.
 
 export const roma = [
@@ -103,27 +155,27 @@ export const roma = [
    },
    {
       src: require('@site/static/img/Italy/roma_roman_forum_2.jpg').default,
-      width: 2016,
+      width: 2216,
       height: 1512,
    },
    {
       src: require('@site/static/img/Italy/roma_vaticano_out.jpg').default,
-      width: 2016,
+      width: 2416,
       height: 1512,
    },
    {
       src: require('@site/static/img/Italy/roma_vaticano_in.jpg').default,
-      width: 1600,
+      width: 1650,
       height: 2016,
    },
    {
       src: require('@site/static/img/Italy/roma_street.jpg').default,
-      width: 3024,
+      width: 3624,
       height: 4032,
    },
    {
       src: require('@site/static/img/Italy/roma_street_2.jpg').default,
-      width: 2016,
+      width: 2116,
       height: 1512,
    },
    {
@@ -140,16 +192,73 @@ export const roma = [
 
 <Gallery images={roma} enableImageSelection={false} rowHeight={250}/>
 
-### Firenze
-Our host Vasselyo was a Greek living in Italy. Gave us a lot of advices and take us to places where only local people goes.
+### Florence
+Our host Vasselyo was a Greek living in Italy. He gave us a lot of advices and took us to places where only local population goes.
 
-Shared about is life and Greece (which planted a seed in my head). 
-What to do ?
+He cooked us pastas with pestos, offered us Chianti wines (regional wine).
+
+Shared about is life and his life in Greece (Which planted a seed in my mind). 
+
+Vasselyo brings us to see his friends, then we ate street food. They were many people selling their goods (drinks, foods,...). It's a common thing in Italy to pay something to drink and sit somewhere in public and discuss. 
+
+#### What to do ?
+- Cathedral of Santa Maria del Fiore
+- Piazzale Michelangelo at the sunset / at nigth. It offers a panoramic view of Florence.
+- Ponte Vecchio, it's the oldest bridge in Florence. He's known for the many shops on and around the bridge, which used to be the domain of blacksmiths, tanners and butchers. But they were replaced by jewelers and goldsmiths.
+
+
 ### Pisa
-What to do ?
-No more than 2 days because not many things to do. 
+Pisa was the last stop of our trip. We stayed there only a day and it was enough for us. I suggest to stay there for 2 days because there is not many things to do and see.
 
-We only stayed for a complete day and it was perfect.
+- See and visit the Tower of Pisa
+- Visit the Duomo di Pisa
+- See the Chiesa di Santa Maria della Spina (a gothic church located on the bank of the Arno river)
+- Borgo Stretto, it's Pisa's shopping street
+
+export const pisa = [
+    {
+      src: require('@site/static/img/Italy/pisa_tower.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_tower_2.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_battistero.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_church_3.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_church.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_church_2.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_street.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+   {
+      src: require('@site/static/img/Italy/pisa_street_2.jpg').default,
+      width: 1512,
+      height: 2016,
+   },
+];
+
+<Gallery images={pisa} enableImageSelection={false} rowHeight={250}/>
 
 ## Learning
 - I spoke and shared moments with international peoples

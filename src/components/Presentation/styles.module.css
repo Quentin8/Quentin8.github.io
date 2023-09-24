@@ -1,0 +1,8 @@
+.cardBody{
+    display: block;
+    color: black;
+    width: 90%;
+  }
+.cardDescTitle{
+    text-align: center;
+}

@@ -12,6 +12,7 @@ const FeatureList = [
       </>
     ),
     vertical: false,
+    link: "/blog/malta-italy",
   },
   {
     title: 'Portugal',
@@ -22,6 +23,7 @@ const FeatureList = [
       </>
     ),
     vertical: true,
+    link: "/blog/portugal",
   },
   {
     title: 'Greece',
@@ -32,16 +34,20 @@ const FeatureList = [
       </>
     ),
     vertical: false,
+    link: "/blog/greece",
   },
 ];
 
-function Feature({Img, title, description, vertical}) {
+function Feature({Img, title, description, vertical, link}) {
   let image = <img src={Img} className={styles.tripPresentationPictureHoriz} role="img" />
   if (vertical) image = <img src={Img} className={styles.tripPresentationPictureVert} role="img" />
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        {image}
+        <a href={link}>
+          {image}
+        </a>
+        
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

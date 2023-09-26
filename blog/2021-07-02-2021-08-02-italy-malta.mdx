@@ -68,7 +68,7 @@ export const malta = [
 During my trip in Italy I had the opportunity to explore Bari, Rome, Florence, Pisa,...
 
 ### Bari
-I don't recommend this city for a long stay, there is not much things to do and discover.
+I don't recommend this city for a long stay, there is not much things to doàq and discover.
 Especially because theres is not a lot of hystoric monuments and places to visits. I think it's a good destination for 2 or 3 days maximum.
 
 Compared to Malta Bari is very affordable, the bottle of Peronni (Italian beer) cost 1€, pizza's were sold arrount 6€ and cocktails 7€.
@@ -77,66 +77,68 @@ We had the chance to be there during the final of the 2021 European footbal tour
 
 Here is a picture reflecting the atmosphere this night :
 
-<img src="/img/Italy/bari_party.jpg" style={{width:"70%", display: "block", margin: "auto"}} role="img" />
+<img src="/img/Italy/bari_party.jpg" style={{width:"70%", display: "block", margin: "auto", borderRadius: "2%"}} role="img" />
 
 <br />
 
-la ville est une sorte de quadrillage dont les rues en sens unique
-
 #### What to do ?
-- You can go to Polignano a Mare, it's a little balnear station 30 minutes away. for this you need to take the regional train (the ticket costs approximately 5€).
+- You can go to Polignano a Mare, it's a little balnear station 30 minutes away. To get there you need to take the regional train (tickets costs arround 5€).
 - Visit the historical center, there is a lot of typical small streets
 - Go to the *Piazza Mercantile*, it's a place with a lot of restaurants, bistro's, coffees, animations,...
 - Explore the 13th-century Norman-Swabian Castle of Bari
 
 export const bari = [
     {
-      src: require('@site/static/img/Italy/bari_poli.jpg').default,
+      src: require('@site/static/img/randoms/bari_train_station.jpg').default,
       width: 2016,
       height: 1512,
-   },
-   {
-      src: require('@site/static/img/Italy/bari_street.jpg').default,
-      width: 1512,
-      height: 2016,
-   },
-   {
-      src: require('@site/static/img/randoms/bari_train_station.jpg').default,
+    },
+    {
+      src: require('@site/static/img/Italy/bari_poli.jpg').default,
       width: 2016,
       height: 1512,
    },
    {
       src: require('@site/static/img/Italy/bari_center_2.jpg').default,
       width: 1512,
-      height: 2016,
+      height: 1800,
+   },
+   {
+      src: require('@site/static/img/Italy/bari_street.jpg').default,
+      width: 1512,
+      height: 1800,
    },
    {
       src: require('@site/static/img/Italy/bari_beach.jpg').default,
       width: 1512,
-      height: 2016,
+      height: 1800,
    }
 ];
 
 <Gallery images={bari} enableImageSelection={false} rowHeight={250}/>
 
 ### Rome
-I highly recommend visiting Rome, I think 7 days is perfect to visit the city and all it's monuments and places. I strongly advise you equip yourself with good walking shoes. The city is so large and interesting that long distances can be rapidly covered..
+I highly recommend visiting Rome, I think 7 days is perfect to visit the city and all it's monuments and places. Rome is a city brimming with museums, squares, Roman buildings and other must-sees. 
+I strongly advise you equip yourself with good walking shoes. The city is so large and interesting that long distances can be rapidly covered...
 
-rome is a city brimming with museums, squares, Roman buildings and other must-sees.
+
 
 #### What you must do ?
-- Visit the Coliseum, the Circus Maximus, Palatine Hill and the Roman Forum
-- The Pantheon
+- Visit the Pantheon, the Coliseum, the Circus Maximus, Palatine Hill and the Roman Forum
 - The Vatican and the Sistine Chapel
-- The Roman forum
 - Enjoy traditional pastas with a glass of wine at ```Pasta e Vino Osteria```. It's someone we met during our trip that recommended us the adress. It's considered as the best place to taste real Italian pastas with the typical Italian atmosphere.
-- Visit the Trastevere neighbourhood, the area is one of the oldest and most authentic neighbourhoods in Rome and is definitely where to stay in Rome for nightlife.
-- If you have time you can go to Castel Gandolfo, this is commonly known as the *Pope's City*, as it houses the Pope's summer residence. There is a train line that can bring you there.
+- Visit the Trastevere neighbourhood. The area is one of the oldest and most authentic neighbourhoods in Rome and is definitely where to stay in Rome for nightlife.
+- If you have time you can go to Castel Gandolf. It's commonly known as the *Pope's City*, as it houses the Pope's summer residence. There is a train line that can bring you there.
 
 export const roma = [
     {
       src: require('@site/static/img/Italy/roma_trevi.jpg').default,
       width: 2016,
+      height: 1512,
+   },
+   {
+      src: require('@site/static/img/Italy/roma_roman_forum_2.jpg').default,
+      width: 2216,
       height: 1512,
    },
    {
@@ -146,22 +148,17 @@ export const roma = [
    },
    {
       src: require('@site/static/img/Italy/roma_coliseum.jpg').default,
-      width: 1512,
-      height: 2016,
+      width: 2212,
+      height: 1816,
    },
    {
-      src: require('@site/static/img/Italy/roma_roman_forum.jpg').default,
+      src: require('@site/static/img/Italy/roma_street_4.jpg').default,
       width: 1512,
       height: 2016,
-   },
-   {
-      src: require('@site/static/img/Italy/roma_roman_forum_2.jpg').default,
-      width: 2216,
-      height: 1512,
    },
    {
       src: require('@site/static/img/Italy/roma_vaticano_out.jpg').default,
-      width: 2416,
+      width: 2316,
       height: 1512,
    },
    {
@@ -185,8 +182,8 @@ export const roma = [
       height: 1512,
    },
    {
-      src: require('@site/static/img/Italy/roma_street_4.jpg').default,
-      width: 1512,
+      src: require('@site/static/img/Italy/roma_roman_forum.jpg').default,
+      width: 1712,
       height: 2016,
    }
 ];
@@ -194,19 +191,66 @@ export const roma = [
 <Gallery images={roma} enableImageSelection={false} rowHeight={250}/>
 
 ### Florence
-Our host Vasselyo was a Greek living in Italy. He gave us a lot of advices and took us to places where only local population goes.
+Our host was a Greek living in Italy. He gave us a lot of advices and took us to places where only local population goes.
 
-He cooked us pastas with pestos, offered us Chianti wines (regional wine).
+He cooked us pastas with pestos, offered us Chianti wines (regional wine). He even taught us how to make an excellent espresso with Moka Pot.
 
-Shared about is life and his life in Greece (Which planted a seed in my mind). 
+Shared about his daily life and his life in Greece (which planted a seed in my mind). We shared many things together, how we see the life, our cultural habits, how important is it to us to travel and open ourselves to the world. et le fait de voyager et de s'ouvrir.
 
-Vasselyo brings us to see his friends, then we ate street food. They were many people selling their goods (drinks, foods,...). It's a common thing in Italy to pay something to drink and sit somewhere in public and discuss. 
+Vasselyo brings us to see his friends, then we ate street food. They were many people selling their goods (drinks, foods,...). 
+It's a common thing in Italy to pay something to drink and sit somewhere in public and discuss. 
 
 #### What to do ?
 - Cathedral of Santa Maria del Fiore
 - Piazzale Michelangelo at the sunset / at nigth. It offers a panoramic view of Florence.
 - Ponte Vecchio, it's the oldest bridge in Florence. He's known for the many shops on and around the bridge, which used to be the domain of blacksmiths, tanners and butchers. But they were replaced by jewelers and goldsmiths.
 
+:::tip
+If you wan't to spend a fantastic evening, you need to sip a cocktail at ``View on Art Rooftop Cocktail Bar``. 
+It's Rooftop restaurant with a stunning view of the Duomo and great music.
+
+:::
+<br />
+
+export const florence = [
+    {
+      src: require('@site/static/img/Italy/florence/florence_duomo.jpg').default,
+      width: 3024,
+      height: 3232,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_ponte_vecchio_2.jpg').default,
+      width: 3024,
+      height: 4032,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_street.jpg').default,
+      width: 3024,
+      height: 3032,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_night.jpg').default,
+      width: 4032,
+      height: 3024,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_ponte_vecchio.jpg').default,
+      width: 4032,
+      height: 3024,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_duomo_2.jpg').default,
+      width: 3024,
+      height: 3432,
+   },
+   {
+      src: require('@site/static/img/Italy/florence/florence_rooftop.JPG').default,
+      width: 2160,
+      height: 3215,
+   }
+];
+
+<Gallery images={florence} enableImageSelection={false} rowHeight={300}/>
 
 ### Pisa
 Pisa was the last stop of our trip. We stayed there only a day and it was enough for us. I suggest to stay there for 2 days because there is not many things to do and see.
@@ -216,14 +260,10 @@ Pisa was the last stop of our trip. We stayed there only a day and it was enough
 - See the Chiesa di Santa Maria della Spina (a gothic church located on the bank of the Arno river)
 - Borgo Stretto, it's Pisa's shopping street
 
+
 export const pisa = [
     {
       src: require('@site/static/img/Italy/pisa_tower.jpg').default,
-      width: 1512,
-      height: 2016,
-   },
-   {
-      src: require('@site/static/img/Italy/pisa_tower_2.jpg').default,
       width: 1512,
       height: 2016,
    },

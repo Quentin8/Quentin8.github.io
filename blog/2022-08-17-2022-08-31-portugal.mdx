@@ -7,7 +7,7 @@ tags: [Portugal, Lisbon, Porto]
 <!-- External component -->
 import { Gallery } from "react-grid-gallery";
 
-<img src="/img/portugal_flag.svg" style={{width:"30%", display: "block", margin: "auto", borderRadius: "10px"}} role="img" />
+<img src="/img/portugal_flag.svg" style={{width:"30%", display: "block", margin: "auto", borderRadius: "6%"}} role="img" />
 
 <br />
 
@@ -22,15 +22,15 @@ I didn't have time to go to Sintra (a magnificent town close to Lisbon).
 ## Lisbon
 
 Lisbon is a city that makes you want to go exploring, to discover whatever might appear in every neighbourhood, on every street. 
-It’s a safe and friendly city, relatively small but with so much to see. It’s the ideal place to spend a few days.
+It’s a safe and friendly city, relatively small but with so much to see. It is the ideal place to spend a few days.
 
 Lisbon is a very hilly city, I've covered most of it on foot ! Lucky I've got good legs and good shoes. 
 
 Lisbon is full of nooks and crannies, little streets with hidden stores or cafés with loudly laughing people inviting you in for a drink. 
-I wish I'd spent more time in Lisbon, it's a city where you can easily feel at home.
+I wish I'd spent more time in Lisbon, it is a city where you can easily feel at home.
 
 :::tip 
-You **must** go to "Pasteis de Belemeat" eat their Pastel de nata ! (they're Portugal's best)
+You **must** go to "Pasteis de Belem" eat their Pastel de nata ! (they are Portugal's best)
 :::
 
 export const lisbon = [
@@ -44,23 +44,28 @@ export const lisbon = [
       height: 480,
       width: 490,
    },
-   {
-      src: require('@site/static/img/lisboa/lisbon_2.jpg').default,
-      height: 480,
-      width: 440,
-   },
+//   {
+//      src: require('@site/static/img/lisboa/lisbon_2.jpg').default,
+//      height: 480,
+//      width: 440,
+//   },
    {
       src: require('@site/static/img/lisboa/lisbon_street_2.jpg').default,
       height: 480,
       width: 440,
    },
+//   {
+//      src: require('@site/static/img/lisboa/lisbon_3.jpg').default,
+//      height: 480,
+//      width: 440,
+//   },
    {
-      src: require('@site/static/img/lisboa/lisbon_3.jpg').default,
+      src: require('@site/static/img/lisboa/lisbon_4.jpg').default,
       height: 480,
       width: 440,
    },
    {
-      src: require('@site/static/img/lisboa/lisbon_4.jpg').default,
+      src: require('@site/static/img/lisboa/lisbon_monastere.jpg').default,
       height: 480,
       width: 440,
    },
@@ -70,20 +75,15 @@ export const lisbon = [
       width: 440,
    },
    {
-      src: require('@site/static/img/lisboa/lisbon_art_2.jpg').default,
-      height: 480,
-      width: 440,
-   },
-   {
       src: require('@site/static/img/lisboa/lisbon_blue_street.jpg').default,
       height: 480,
       width: 440,
    },
-   {
-      src: require('@site/static/img/lisboa/lisbon_bridge.jpg').default,
-      height: 480,
-      width: 440,
-   },
+//   {
+//      src: require('@site/static/img/lisboa/lisbon_bridge.jpg').default,
+//      height: 480,
+//      width: 440,
+//   },
    {
       src: require('@site/static/img/lisboa/lisbon_bridge_2.jpg').default,
       height: 480,
@@ -99,11 +99,11 @@ export const lisbon = [
       height: 440,
       width: 680,
    },
-   {
-      src: require('@site/static/img/lisboa/lisbon_miam.jpg').default,
-      height: 480,
-      width: 440,
-   },
+//   {
+//      src: require('@site/static/img/lisboa/lisbon_miam.jpg').default,
+//      height: 480,
+//      width: 440,
+//   },
    {
       src: require('@site/static/img/lisboa/lisbon_street.jpg').default,
       height: 420,
@@ -120,7 +120,7 @@ export const lisbon = [
       width: 620,
    },
    {
-      src: require('@site/static/img/lisboa/lisbon_monastere.jpg').default,
+      src: require('@site/static/img/lisboa/lisbon_art_2.jpg').default,
       height: 480,
       width: 440,
    },
@@ -141,22 +141,84 @@ export const lisbon = [
    }
 ];
 
+<br />
+
 <Gallery images={lisbon} enableImageSelection={false} rowHeight={250}/>
 
 ## Porto
 
 It's the same country, but with such different landscapes. Just between the west and north of Porto, the landscapes are very different. More industrial 
 landscapes with old buildings in the north, while in the west there's a lot more greenery, life, stores, etc.... 
-The atmosphere in Porto was very different from that in Lisbon. Porto is alive day and night. 
+The atmosphere in Porto was very different from the one in Lisbon. Porto is alive day and night and they are more young people in Porto than in Lisbon. 
 
-During my breaks in bars or cafés during my long walks, I had the opportunity to chat with locals, 
+During my breaks in bars or cafés after my long walks, I had the opportunity to chat with locals, 
 This helped me improve my English, even though not all the Portuguese I met spoke English. 
 Thanks to them, I've been able to go to places to eat and visit that I'd never have thought of!
-
 
  
 Being alone for 10 days in the same city was very long, pleasant, but long. 
 I wouldn't recommend spending so much time alone in the same city, because there were times when I didn't know what to do. 
 But on the positive side, it really allowed me to take the time to do nothing, 
 enjoy every moment and be more attentive to everything around me. 
+
+export const porto = [
+    {
+      src: require('@site/static/img/portugal/porto_art.jpg').default,
+      width: 580,
+      height: 640,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_bridge.jpg').default,
+      width: 580,
+      height: 640,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_calem.jpg').default,
+      width: 480,
+      height: 540,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_cathedral.jpg').default,
+      width: 480,
+      height: 540,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_douro.jpg').default,
+      width: 530,
+      height: 540,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_food.jpg').default,
+      width: 580,
+      height: 640,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_garden.jpg').default,
+      width: 680,
+      height: 540,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_lello.jpg').default,
+      width: 480,
+      height: 540,
+   },
+   {
+      src: require('@site/static/img/portugal/porto_traditions.jpg').default,
+      width: 480,
+      height: 540,
+   }
+];
+
+<br />
+
+<Gallery images={porto} enableImageSelection={false} rowHeight={250}/>
+
+<br />
+
+:::tip 
+
+You can do ever uthing on foot or by using the old tramway or buses. You will need to rent a car or a scooter only if you are planning to move out of the city. 
+It's a city with excellent transports links.
+
+:::
 

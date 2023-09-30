@@ -19,7 +19,7 @@ const FeatureList = [
     Img: require('@site/static/img/portugal_pres.jpg').default,
     description: (
       <>
-        A 2 weeks trip alone to discover Portugal way of life in Lisboa and Porto.
+        A 2 weeks trip alone to discover Portugal way of life in Lisbon and Porto.
       </>
     ),
     vertical: true,
@@ -30,7 +30,7 @@ const FeatureList = [
     Img: require('@site/static/img/greece_pres.jpg').default,
     description: (
       <>
-        A 3 weeks adventure in the Greek history and beauty.
+        A 3 week adventure in the history and beauty of Greece.
       </>
     ),
     vertical: false,

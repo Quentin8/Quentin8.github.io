@@ -11,8 +11,8 @@ export default function Presentation(){
   let myDescription = "My name is Quentin Fournier and I am 23 years old. I studied at ISEN Nantes engineering school."
   let description = `
   I'm passionate about travel, because for me it's all about adventures and discoveries. Travelling offers the opportunity to 
-  immer ourself to other cultures, try new things and meet people from all around the world.
-  Furthermore I wished to improve my spoken english.
+  immer ourself to other cultures, try new things and meet people from all over the world.
+  I also wanted to improve my spoken English.
   `
 
   return (
